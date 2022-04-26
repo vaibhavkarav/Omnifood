@@ -145,7 +145,6 @@
 
     /* Hide navigation */
     /* Allows NO transitions at all */
-    /* display: none; */
 
     /* 1) Hide it visually */
     opacity: 0;
@@ -293,14 +292,6 @@
     grid-row: 1;
   }
 }
-
-/* 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
 
 /**************************/
 /* Fixing Safari flexbox gap */

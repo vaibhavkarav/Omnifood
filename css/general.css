@@ -64,15 +64,9 @@ Medium: 11px
 }
 
 html {
-  /* font-size: 10px; */
-
-  /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
-
-  /* Does NOT work on Safari */
-  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -86,7 +80,7 @@ body {
 }
 
 /**************************/
-/* GENRAL REUSABLE COMPONENTS */
+/* GENERAL REUSABLE COMPONENTS */
 /**************************/
 
 .container {
@@ -100,13 +94,7 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-
-  /* margin-bottom: 9.6rem; */
 }
-
-/* .grid:last-child {
-  margin-bottom: 0;
-} */
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
@@ -124,10 +112,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
-
 .grid--center-v {
   align-items: center;
 }
@@ -137,8 +121,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
@@ -186,8 +168,6 @@ body {
   cursor: pointer;
   font-family: inherit;
 
-  /* Put transition on original "state" */
-  /* transition: background-color 0.3s; */
   transition: all 0.3s;
 }
 
@@ -211,8 +191,6 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
-
-  /* border: 3px solid #fff; */
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
@@ -269,8 +247,6 @@ body {
 
 *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
-  /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
