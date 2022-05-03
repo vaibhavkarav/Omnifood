@@ -2,7 +2,7 @@
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
-function checkFlexGap() {
+export function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
   flex.style.flexDirection = "column";
@@ -18,4 +18,4 @@ function checkFlexGap() {
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
-checkFlexGap();
+
